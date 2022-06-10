@@ -1,17 +1,15 @@
 body {
     margin: 0;
-    background-image: radial-gradient(circle at center center, #070860, #066481), repeating-radial-gradient(circle at center center, #070860, #070860, 32px, transparent 64px, transparent 32px);
-    background-blend-mode: multiply;
-    background-color: #066481;
+    background-image: radial-gradient(#0d0d8f 8px, transparent 8px);
+    background-size: 22px 22px;
+    background-color: #030335;
 }
-
-header,
-main {
+header, main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
-
-button {
+button{
     width: 80px;
 }
